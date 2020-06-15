@@ -8,3 +8,40 @@ For Video Angular, install below package
 
 npm install videogular2 --save
 npm install @types/core-js --save-dev
+
+add beow line in tsconfig.app.json
+"angularCompilerOptions": {
+    "enableIvy": false
+  }
+
+  //To solve heap memory error in ng build --prod
+ 
+  Solution 1
+  -----------
+  fist install cross-env
+  npm install --save-dev cross-env
+  then add below in 
+  package.json
+  -------------
+  "scripts": {
+     "build": "cross-env NODE_OPTIONS=--max_old_space_size=8192 ng build --prod"
+  }
+
+  After that:
+  npm run build
+
+if it doesn't work then try below 
+  Solution 2
+  -----------
+  Update to the latest Angular like so: ng update @angular/cli@^8 @angular/core@^8
+  
+  Then
+  package.json
+  ------------
+  "scripts": {
+    "ng-high-memory": "node --max_old_space_size=8000 ./node_modules/@angular/cli/bin/ng build --configuration=prod",
+  }
+  
+  After that:
+  npm run ng-high-memory
+
