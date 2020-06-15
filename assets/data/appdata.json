@@ -1,0 +1,6 @@
+{
+   "Classes":["I","II","III","IV","V","VI","VII","IX","X","XI","XII"],
+   "Sections":["A","B","C","D","E","F"],
+   "Genders":["Male","Female","Other"],
+   "Subjects":["Bengali","English","Hindi","Mathematics","Physics" ,"Chemistry","Biology","History","Geography"]
+}
