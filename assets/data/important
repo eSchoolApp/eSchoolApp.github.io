@@ -11,10 +11,12 @@ npm install @types/core-js --save-dev
 
 add beow line in tsconfig.app.json
 "angularCompilerOptions": {
-    "enableIvy": false
-  }
+  "enableIvy": false
+}
 
-  To solve heap memory error in ng build --prod
+///////////////////////=================================================////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ To solve heap memory error in ng build --prod
  -------------------------------------------------
   Solution 1 (Works for me)
   -----------
@@ -30,7 +32,7 @@ add beow line in tsconfig.app.json
   After that:
   npm run build
 
-if Solution 1 doesn't work then try below 
+if Solution 1 doesn't work then try below solution 2
 
 Solution 2
 -----------
@@ -45,6 +47,8 @@ Solution 2
   
   After that:
   npm run ng-high-memory
+
+///////////////////////=================================================////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 To Solve the CORS issue
 ------------------------
@@ -151,3 +155,7 @@ for us
 
 gsutil cors set cors.json gs://futureinfotech-storage.appspot.com
 
+///////////////////////=================================================////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+To enable the download of PDF files, we need to install FileSaver package by running following NPM command in terminal:
+
+$ npm install file-saver
