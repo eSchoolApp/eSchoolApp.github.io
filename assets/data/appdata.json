@@ -3,7 +3,7 @@
    "Sections":["A","A+","A++"],
    "Genders":["Male","Female","Other"],
    "FileTypes":["doc","gif","jpg","mp3","mp4","opus","pdf","png","ppt","txt","xls"],
-   "Subjects":["Bengali","Biology","Chemistry","English","Geography","Hindi","History","Mathematics","Physics"],
+   "Subjects":["Biology","Chemistry","Computer","English","Geography","Hindi","History","Mathematics","Physics"],
    "HomeWorkFileTypes":["doc","gif","jpg","pdf","png","ppt","txt","xls"]
 
 }
