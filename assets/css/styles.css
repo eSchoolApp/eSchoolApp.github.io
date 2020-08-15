@@ -24,6 +24,15 @@
 		padding: 0 0 0 0;
     font-weight: 100;
 }
+
+.body {
+  background-color: white;
+  color: #777777;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10;
+  line-height: 22px;
+  margin: 0;
+}
 .bodytext {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 10;
@@ -37,6 +46,7 @@
 	color: darkslateblue;
   text-transform: uppercase;
 }
+
 .label-error {
   margin: 0 10px;
   font-family: Arial, Helvetica, sans-serif;
@@ -49,6 +59,62 @@
   font-size: 5;
   color: green
 }
+.label-hint {
+  margin: 0 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 5;
+  color: darkgray
+}
+.label-heading {
+  margin: 0 10px;
+  height: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.label-text {
+  margin: 0 10px;
+  height: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.label-text-infogarden {
+  margin: 0 10px;
+  height: 6px;
+  color: green;
+  font-family: Tahoma;
+  font-weight: bold;
+  font-size: 6;
+}
+
+.label-text-bold-white {
+  margin: 0 10px;
+  height: 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 6;
+}
+
+.label-text-white {
+  margin: 0 6px;
+  height: 6px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 6;
+}
+
+.button-text-bold-white {
+  margin: 0 10px;
+  height: 40px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 6;
+}
+
+
 .small-spacer {
   margin-left: 10px;
 }
@@ -58,32 +124,7 @@
 .large-spacer {
   margin-left: 170px;
 }
-.label-hint {
-  margin: 0 10px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 5;
-  color: darkgray
-}
 
-.label-heading {
-  margin: 0 10px;
-  height: 60px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-}
-.label-text {
-  margin: 0 10px;
-  height: 60px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.body {
-    background-color: white;
-    color: #777777;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10;
-    line-height: 22px;
-    margin: 0;
-}
 .list-text {
 	font-family: Courier;
 	color:blue;
@@ -135,14 +176,15 @@
 }
 .list-group-item {
   list-style-type: square;
- list-style-position: outside;
- list-style-image: none;
+  list-style-position: outside;
+  list-style-image: none;
 }
 .list-group {
-list-style-type: square;
- list-style-position: outside;
- list-style-image: none;
+  list-style-type: square;
+  list-style-position: outside;
+  list-style-image: none;
 }
+
 .example-icon {
   padding: 0 14px;
 }
@@ -155,11 +197,14 @@ list-style-type: square;
   color:white;
   background-color: black;
 }
+
 .example-button-row {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
+
+
 .sebm-google-map-container {
   height: 300px;
 }
@@ -179,12 +224,33 @@ list-style-type: square;
   display: flex;
   flex-direction: column;
 }
+
+.input-full-width {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-half-width {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-qtr-width {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
 .mat-chip {
   max-width: 200px;
 }
+
 .mat-card{
     height:auto;
  }
+
  .mat-card-content{
     height:auto;
  }

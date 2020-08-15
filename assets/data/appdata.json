@@ -1,9 +1,9 @@
 {
-   "Classes":["I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII"],
-   "Sections":["A","A+","A++"],
-   "Genders":["Male","Female","Other"],
-   "FileTypes":["doc","gif","jpg","mp3","mp4","opus","pdf","png","ppt","txt","xls"],
-   "Subjects":["Biology","Chemistry","Computer","English","Geography","Hindi","History","Mathematics","Physics"],
-   "HomeWorkFileTypes":["doc","gif","jpg","pdf","png","ppt","txt","xls"]
-
+   "jsonYesNo":["Yes","No"],
+   "jsonClasses":["I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII"],
+   "jsonSections":["A","A+","A++"],
+   "jsonGenders":["Male","Female","Other"],
+   "jsonSubjects":["Biology","Chemistry","Computer","English","Geography","Hindi","History","Mathematics","Physics"],
+   "jsonUploadFileFormat":["doc","gif","jpg","mp3","mp4","opus","pdf","png","ppt","txt","xls"],
+   "jsonUploadFileFormatHomeTask":["doc","gif","jpg","pdf","png","ppt","txt","xls"]
 }
