@@ -6,6 +6,6 @@
    "jsonSubjects":["Biology","Chemistry","Computer","English","Geography","Hindi","History","Mathematics","Physics"],
    "jsonUploadFileFormat":["doc","gif","jpg","mp3","mp4","opus","pdf","png","ppt","txt","xls"],
    "jsonUploadFileFormatHomeTask":["doc","gif","jpg","pdf","png","ppt","txt","xls"],
-   "jsonExamCode":["MonthlyTest - 1st","MonthlyTest - 2nd","MonthlyTest - 3rd","MonthlyTest - 4th","MonthlyTest - 5th","Half Yearly.","MonthlyTest - 6th","MonthlyTest - 7th","MonthlyTest - 8th","MonthlyTest - 9th","MonthlyTest - 10th","Annual Exam"]
+   "jsonExamCode":["Unit Test 1","Unit Test 2","Unit Test 3","Unit Test 4", "Half Yearly", "Annual"]
 
 }
