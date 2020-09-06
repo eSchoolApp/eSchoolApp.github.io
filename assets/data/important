@@ -147,6 +147,10 @@ Then, run this command (replacing "exampleproject.appspot.com" with the name of 
 
 gsutil cors set cors.json gs://exampleproject.appspot.com
 
+gsutil cors set cors.json gs://ig-eschool-db-storage.appspot.com
+ 
+Go to docs
+
 Then, run this command (replacing "exampleproject.appspot.com" with the name of your bucket):
 
 gsutil cors set cors.json gs://exampleproject.appspot.com
