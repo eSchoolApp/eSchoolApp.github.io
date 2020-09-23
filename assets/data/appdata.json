@@ -4,7 +4,7 @@
    "jsonClasses":["I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII"],
    "jsonSections":["A","A+","A++"],
    "jsonGenders":["Male","Female","Other"],
-   "jsonSubjects":["Bengali","Biology","Chemistry","Computer","English","Geography","Hindi","History","Mathematics","Physics"],
+   "jsonSubjects":["Bengali","Computer","English","Geography","Hindi","History","Life Sc.","Mathematics","Phy. Sc"],
    "jsonUploadFileFormat":["doc","gif","jpg","mp3","mp4","opus","pdf","png","ppt","txt","xls"],
    "jsonUploadFileFormatHomeTask":["doc","gif","jpg","pdf","png","ppt","txt","xls"],
    "jsonExamCodes":["Unit Test 1","Unit Test 2","Unit Test 3","Unit Test 4", "Half Yearly", "Annual"],
