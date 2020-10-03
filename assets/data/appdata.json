@@ -1,9 +1,9 @@
 {
-   "jsonUserRole":["admin","Teacher", "Student"],
+   "jsonUserRole":["Teacher", "Student"],
    "jsonYesNo":["Y","N"],
    "jsonClasses":["I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII"],
    "jsonSections":["A","A+","A++"],
-   "jsonGenders":["Male","Female","Other"],
+   "jsonGenders":["Male","Female"],
    "jsonSubjects":["Bengali","Computer","English","Geography","Hindi","History","Life Sc.","Mathematics","Phy. Sc"],
    "jsonUploadFileFormat":["doc","gif","jpg","mp3","mp4","opus","pdf","png","ppt","txt","xls"],
    "jsonUploadFileFormatHomeTask":["doc","gif","jpg","pdf","png","ppt","txt","xls"],
